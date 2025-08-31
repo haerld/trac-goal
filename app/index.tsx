@@ -8,7 +8,7 @@ import { Calendar, Crown, MoonStarIcon, StarIcon, SunIcon, Trash2 } from 'lucide
 import { useColorScheme } from 'nativewind';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { Image, type ImageStyle, Modal, Pressable, ScrollView, TextInput, TouchableOpacity, View, Platform } from 'react-native';
+import { Image, type ImageStyle, Modal, Pressable, ScrollView, TextInput, TouchableOpacity, View, Platform, Keyboard, TouchableWithoutFeedback } from 'react-native';
 import axios from 'axios';
 import { saveGoals, loadGoals } from '../storage/goalsStorage';
 import { Input } from '@/components/ui/input';

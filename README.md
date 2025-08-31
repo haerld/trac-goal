@@ -1,73 +1,56 @@
-# Minimal Template
+# Trac-Goal
 
-This is a [React Native](https://reactnative.dev/) project built with [Expo](https://expo.dev/) and [React Native Reusables](https://reactnativereusables.com).
+Trac-Goal is a minimalist goal-tracking application built with React Native and Expo. It helps users set, track, and manage their personal goals with a clean and intuitive interface.
 
-It was initialized using the following command:
+## 🚀 Installation & Running
 
-```bash
-npx react-native-reusables/cli@latest init -t trac-goal
-```
+### Prerequisites
 
-## Getting Started
+Ensure you have the following installed:
 
-To run the development server:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Git](https://git-scm.com/)
 
-```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    # or
-    bun dev
-```
+### Steps
 
-This will start the Expo Dev Server. Open the app in:
+1. **Clone the repository:**
 
-- **iOS**: press `i` to launch in the iOS simulator _(Mac only)_
-- **Android**: press `a` to launch in the Android emulator
-- **Web**: press `w` to run in a browser
+   ```bash
+   git clone https://github.com/haerld/trac-goal.git
+   cd trac-goal
+````
 
-You can also scan the QR code using the [Expo Go](https://expo.dev/go) app on your device. This project fully supports running in Expo Go for quick testing on physical devices.
+2. **Install dependencies:**
 
-## Adding components
+   ```bash
+   npm install
+   ```
 
-You can add more reusable components using the CLI:
+3. **Start the development server:**
 
-```bash
-npx react-native-reusables/cli@latest add [...components]
-```
+   ```bash
+   npm start
+   ```
 
-> e.g. `npx react-native-reusables/cli@latest add input textarea`
+   This will open Expo DevTools in your browser. You can scan the QR code with the **Expo Go app** on your Android or iOS device to preview the app.
 
-If you don't specify any component names, you'll be prompted to select which components to add interactively. Use the `--all` flag to install all available components at once.
+## 🛠 Tech Stack
 
-## Project Features
+* **React Native**: Framework for building native apps using React.
+* **Expo**: Platform for universal React applications.
+* **NativeWind**: Tailwind-like styling for React Native.
+* **Reusables UI**: Collection of reusable components for React Native.
+* **React Navigation**: Routing and navigation for React Native apps.
 
-- ⚛️ Built with [Expo Router](https://expo.dev/router)
-- 🎨 Styled with [Tailwind CSS](https://tailwindcss.com/) via [Nativewind](https://www.nativewind.dev/)
-- 📦 UI powered by [React Native Reusables](https://github.com/founded-labs/react-native-reusables)
-- 🚀 New Architecture enabled
-- 🔥 Edge to Edge enabled
-- 📱 Runs on iOS, Android, and Web
+## ⚠️ Known Limitations
 
-## Learn More
+* **Offline Functionality**: The app requires an internet connection for initial setup and updates.
+* **Authentication**: Currently, there is no user authentication; all data is stored locally.
 
-To dive deeper into the technologies used:
+## 📱 Expo Preview
 
-- [React Native Docs](https://reactnative.dev/docs/getting-started)
-- [Expo Docs](https://docs.expo.dev/)
-- [Nativewind Docs](https://www.nativewind.dev/)
-- [React Native Reusables](https://reactnativereusables.com)
+Scan the QR code below with the Expo Go app:
 
-## Deploy with EAS
+![Expo QR Code](assets/qr-expo.png)
 
-The easiest way to deploy your app is with [Expo Application Services (EAS)](https://expo.dev/eas).
-
-- [EAS Build](https://docs.expo.dev/build/introduction/)
-- [EAS Updates](https://docs.expo.dev/eas-update/introduction/)
-- [EAS Submit](https://docs.expo.dev/submit/introduction/)
-
----
-
-If you enjoy using React Native Reusables, please consider giving it a ⭐ on [GitHub](https://github.com/founded-labs/react-native-reusables). Your support means a lot!

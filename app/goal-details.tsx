@@ -97,6 +97,7 @@ export default function GoalDetails() {
           title: "Edit Goal Details",
           headerBackTitle: "Back",
           headerTintColor: "#58C852",
+          headerShadowVisible: false,
         }}
       />
 

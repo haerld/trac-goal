@@ -15,6 +15,7 @@ export default function PaymentScreen() {
           title: 'Go Pro',
           headerBackTitle: 'Back',
           headerTintColor: '#58C852',
+          headerShadowVisible: false,
         }}
       />
       <View className="flex-1 w-full justify-start items-center bg-white dark:bg-neutral-900 p-5">
@@ -78,9 +79,11 @@ export default function PaymentScreen() {
                 </View>
                 </View>
 
-                <Button className="bg-[#58C852] w-full rounded-lg mb-10">
+                <Button className="bg-[#58C852] w-full rounded-lg ">
                 <Text className="text-white font-bold text-center">Pay $55.00</Text>
                 </Button>
+
+                <Text className='self-center text-gray-600 dark:text-gray-400 mt-3'>Powered by Stripe</Text>
             </View>
       </View>
     </>)};
