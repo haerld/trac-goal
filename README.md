@@ -53,5 +53,5 @@ Ensure you have the following installed:
 
 Scan the QR code below with the Expo Go app:
 
-![Expo QR Code](assets/qr-expo.png)
+![Expo QR Code](assets/qr-preview.PNG)
 
